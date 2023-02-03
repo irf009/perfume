@@ -90,3 +90,12 @@ path {
 .btn:hover {
 	background-color: hsl(158, 42%, 21%);
 }
+.container {
+	transition: transform 0.5s;
+}
+
+.container:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
